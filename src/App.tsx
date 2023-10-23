@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import './App.css';
-import ImagesGallery from './compornents/ImagesGallery';
 import Image from './type';
 import Pagenation from './compornents/Pagenation';
 
