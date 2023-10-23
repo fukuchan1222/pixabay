@@ -3,6 +3,7 @@ import './ImagesGallery.css';
 import Image from '../type';
 
 type Props = {
+    fetchData:Image[];
     currentImagesGallery:Image[];
 }
 
