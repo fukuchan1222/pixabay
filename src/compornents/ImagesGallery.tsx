@@ -15,12 +15,10 @@ function ImagesGallery(props:Props) {
         <div className='images-wrapper'>
             {currentImagesGallery.map((data) => (
                 <div className='image' key={data.id}>
-                    <a href={data.pageURL} target="_blank">
-                        <img 
-                            src= {data.largeImageURL}
-                            alt="pixabay images"
-                        />
-                    </a>
+                    <img 
+                        src= {data.largeImageURL}
+                        alt="pixabay images"
+                    />
                 </div>
             ))}
         </div>
